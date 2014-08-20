@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab id="PlotlyTab"  label="Plotly">
+        <group id="UploadPlot"
+               label="Upload Plot">
+          <button id="uploadButton" label="Upload Plot Data"
+                       screentip="Upload Plot Data" onAction="OnUploadPlotDataButton"
+                       supertip="Upload Plot Data to plotly"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
