@@ -1,13 +1,46 @@
 excel-plugin
 ============
 
-Plotly Excel Plugin
+Plotly Excel Add-In
 
 -------------------------
-Installation
-1. Copy the latest from PlotlyAddIn installation folder from Packages to the test system
-2. Open the folder and run setup.exe
-3. If the MS .Net Framework 4.5 is not already installed, you will see a dialog with a license agreement, and an 'I agree' button.  Select I agree and continue (this will download and install the framework).
-4. If MS Visual Studio 2010 Office Tools is not already installed, you will see a dialog with a license agreement, and an 'I agree' button.  Select I agree and continue (this will download and install the framework).
-5. Microsoft Office Customization installer dialog will be displayed.  Select Install.
-6. When the installation is complete, Close button will appear.  Select Close.
+#Installation
+1. Copy the latest Plotly.xlam file from from Packages to the test system
+2. Double-click the file (or open it in excel)
+3. A security prompt will appear with buttons to Enable Macros or Disable Macros.  Select the Enable Macros button.
+ 
+
+!["Security prompt"](https://github.com/plotly/excel-plugin/blob/master/images/1_SecurityNotice.png "Security prompt")
+
+4. Excel will load.
+
+#Using the Add-In
+1. The Plotly Ribbon will be displayed after the View Ribbon as shown below
+
+
+!["Create ribbon"](https://github.com/plotly/excel-plugin/blob/master/images/2_PlotlyRibbon.png "Create ribbon")
+
+2. Open or create a new WorkSheet.
+3. Add data in columns that will represent the X and Y data of the Plot.
+4. Select the Create Plot button
+
+
+!["Create Plot form"](https://github.com/plotly/excel-plugin/blob/master/images/3_CreatePlotDialog.png "Create Plot form")
+
+5. Enter username, API Key and file name for the plot.
+6. Select one of the available Chart Types from the drop down
+
+
+!["Select Chart type"](https://github.com/plotly/excel-plugin/blob/master/images/3_CreatePlotDialog_ChartType.png "Select Chart type")
+
+
+7. Select one of the available columns to represent the X and Y data (Note that for Box Plot and Histogram, only 1 column of data is required)
+
+
+!["Select data column"](https://github.com/plotly/excel-plugin/blob/master/images/3_CreatePlotDialog_XData.png "Select data column")
+
+8. It is possible to add multiple traces.  Select the Add Trace button to choose more data
+ 
+
+!["Select Add Trace"](https://github.com/plotly/excel-plugin/blob/master/images/3_CreatePlotDialog_AddTrace.png "Select Add Trace")
+
