@@ -10,11 +10,11 @@ Plotly Excel Add-In
 3. A security prompt will appear with buttons to Enable Macros or Disable Macros.  Select the Enable Macros button.
  
 
-!["Security prompt"](https://github.com/plotly/excel-plugin/blob/master/images/1_SecurityNotice.png "Security prompt")
+ !["Security prompt"](https://github.com/plotly/excel-plugin/blob/master/images/1_SecurityNotice.png "Security prompt")
 
-If the security prompt does not allow you to enable macros, then edit your security settings. In Settings go to Security and uncheck the "Warn before opening a file that contains macros" box.
+ If the security prompt does not allow you to enable macros, then edit your security settings. In Settings go to Security and uncheck the "Warn before opening a file that contains macros" box.
 
-!["Enable macros in settings"](http://i.imgur.com/MSirAxv.png)
+ !["Enable macros in settings"](http://i.imgur.com/MSirAxv.png)
 
 4. Excel will load.
 
